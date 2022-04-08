@@ -50,8 +50,9 @@ nav ul {
 }
 nav ul li a{
     text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
 }
-
 
 .title{
     width: 30%;
@@ -62,5 +63,5 @@ nav ul li a{
 }
 .title h2
 {
-    font-family: 'Open Sans', sans-serif; ;
+font-family: Rubik Glitch;
 }
