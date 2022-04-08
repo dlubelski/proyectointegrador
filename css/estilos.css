@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: azure;
+}
+a {
+    color: azure;
+}
+.logo {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.buscar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu nav li a{
+    
+}
+
+.udemusicproyecto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.title{
+    width: 30%;
+}
+.title img {
+    width: 100%;
+}
