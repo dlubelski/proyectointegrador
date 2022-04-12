@@ -126,6 +126,18 @@ footer a{
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+.infosong a{
+    font-family: Bebas Neue,cursive;
+    font-size: 200%;
+}
+.infoartist a {
+    font-family: Bebas Neue,cursive;
+    font-size: 200%;
+}
+.infoalbum a{
+    font-family: Bebas neue, cursive;
+    font-size: 200%;
+}
 .songs img {
     justify-content: flex-start;
 }
@@ -199,6 +211,10 @@ footer a{
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+.title-artist{
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
 
 .albumdata img {
     width: 330px;
@@ -211,14 +227,37 @@ footer a{
     flex-direction: row;
     justify-content:stretch;
 }
+.artistdata{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.artistdata img{
+    width: 380px;
+    height: 440px;
+    margin-top: 3%;
+}
 .infoalbum{
     margin-left: 10px;
     padding-left: 10px;
+}
+.infoartist{
+    margin-left: 10px;
+    padding-left: 10px;
+
 }
 .songsbad img{
     width: 390px;
     margin-top: 3%;
 }
+
+.songstrack a{
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+
+
 .cancion{
         display: flex;
         flex-wrap: wrap;
@@ -232,3 +271,7 @@ footer a{
         height: 58px;
         margin-top: 1%;
 }
+.canciontrack{
+      font-size: 170%;
+      font-family: Bebas Neue, cursive;
+    }
