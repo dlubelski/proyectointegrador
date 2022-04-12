@@ -117,11 +117,45 @@ footer a{
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+.title-playlist{
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
 .titlehtml{
     font-family: Bebas Neue, cursive;
     font-size: 300%;
 }
- 
+.favtrack a{
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+.favtrack p{
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+
+.favtrack{
+    display: flex;
+    border: 1px solid #ddd;
+    width: 25;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.playlisthtml{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    align-self: center;
+}
+.titleplaylist{
+    font-size: 100px;
+    font-family: Bebas Neue, cursive;
+    width: 390px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
 .sub-title{
     font-family: Bebas Neue, cursive;
     font-size: 200%;
