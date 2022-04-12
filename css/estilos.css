@@ -112,7 +112,10 @@ footer{
 footer a{
     text-align: end;
 }
-
+.title-genre{
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
 .title-song{
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
