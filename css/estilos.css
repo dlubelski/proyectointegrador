@@ -230,6 +230,7 @@ footer a {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3%;
+    margin-bottom: 3%;
     align-items: center;
     padding: 2 10px;
     border: solid #ddd;
@@ -418,4 +419,25 @@ footer a {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     align-items: center
+}
+
+.infobadbunny h1 {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 200%;
+    align-items: center;
+    color: blueviolet;
+}
+
+.infobadbunny ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.exitosbadbunny ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130%;
+    justify-content: space-between;
+    margin-bottom: 2%;
 }
