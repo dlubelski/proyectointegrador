@@ -71,10 +71,18 @@ nav ul li a {
     height: 660px;
 }
 
+.title-genre{
+    font-family: Rubik wet paint, cursive;
+    font-size: 50px;
+}
 .title h2 {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 50px;
     text-align: center;
+}
+.title-detalleg {
+    font-family: Rubik wet paint, cursive;
+    font-size: 50px;
 }
 
 .title p {
@@ -391,6 +399,7 @@ footer a {
     font-family: 'Bebas Neue', cursive;
     width: 374px;
     height: 58px;
+    margin-top: 10px;
 }
 
 .regguetonartists img {
