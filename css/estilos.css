@@ -384,7 +384,7 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border: 1px solid #ddd;
     padding: 5 10px;
@@ -396,15 +396,17 @@ footer a {
 .regguetonartists img {
     width: 45px;
     height: auto;
-    align-items:center
+    align-items: center
 }
+
 .regguetonartists-name a {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     align-items: center;
 }
+
 .regguetonartists-name p {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
-    align-items:center
+    align-items: center
 }
