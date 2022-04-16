@@ -235,7 +235,7 @@ footer a {
     padding: 2 10px;
     border: solid #ddd;
     background-color: grey;
-    width: 200px;
+    width: 300px;
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
@@ -425,19 +425,25 @@ footer a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 200%;
     align-items: center;
-    color: blueviolet;
+    color: white;
 }
 
 .infobadbunny ul {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 130%;
+    font-family: Bebas Neue, cursive;
+    font-size: 150%;
     justify-content: space-between;
     margin-bottom: 2%;
 }
 
 .exitosbadbunny ul {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 130%;
+    font-family: Bebas Neue, cursive;
+    font-size: 150%;
     justify-content: space-between;
     margin-bottom: 2%;
+}
+.infobadbunny img{
+   padding-left: 18%;
+}
+.exitosbadbunny h2 {
+    font-family: Bebas Neue, cursive;
 }
