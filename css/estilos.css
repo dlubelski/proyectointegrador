@@ -71,15 +71,17 @@ nav ul li a {
     height: 660px;
 }
 
-.title-genre{
+.title-genre {
     font-family: Rubik wet paint, cursive;
     font-size: 50px;
 }
+
 .title h2 {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 50px;
     text-align: center;
 }
+
 .title-detalleg {
     font-family: Rubik wet paint, cursive;
     font-size: 50px;
@@ -151,16 +153,6 @@ footer a {
 .titlehtml {
     font-family: Bebas Neue, cursive;
     font-size: 300%;
-}
-
-.favtrack a {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
-}
-
-.favtrack p {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
 }
 
 .favtrack {
@@ -357,6 +349,10 @@ footer a {
     font-family: Bebas Neue, cursive;
 }
 
+.spotifytoptracks {
+    margin-top: 3%;
+}
+
 .genreshtml {
     margin-left: 10%;
     margin-right: 10%;
@@ -421,7 +417,7 @@ footer a {
     align-items: center
 }
 
-.infobadbunny h1 {
+.infobadbunny a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 200%;
     align-items: center;
@@ -435,15 +431,27 @@ footer a {
     margin-bottom: 2%;
 }
 
+.busquedafoto img {
+    width: 30%;
+    height: 50%;
+}
+
+.infobadb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.infobadb a {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 200%;
+}
 .exitosbadbunny ul {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     justify-content: space-between;
     margin-bottom: 2%;
 }
-.infobadbunny img{
-   padding-left: 18%;
-}
+
 .exitosbadbunny h2 {
     font-family: Bebas Neue, cursive;
 }
