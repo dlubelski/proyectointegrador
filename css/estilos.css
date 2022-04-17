@@ -2,11 +2,9 @@ body {
     background-color: black;
     color: azure;
 }
-
 a {
     color: azure;
 }
-
 .logoheader {
     display: flex;
     flex-wrap: wrap;
@@ -14,26 +12,21 @@ a {
     justify-content: center;
     height: 100vh
 }
-
 .logoheader img {
     width: 700px;
 }
-
-
 .buscar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: end;
 }
-
 .menu ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .menu nav li {
     padding: 15px;
     width: 100px;
@@ -41,57 +34,58 @@ a {
     display: flex;
     justify-content: center;
 }
-
-.udemusicproyecto {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 nav ul li a {
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
 }
+footer img {
+    width: 200px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-size: 10;
+    margin-top: 3%;
+}
+footer a {
+    text-align: end;
+}
 
+
+.indexhtml {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .title {
     width: 30%;
 }
-
 .title img {
     width: 100%;
     height: 660px;
 }
-
-.title-genre {
-    font-family: Rubik wet paint, cursive;
-    font-size: 50px;
-}
-
 .title h2 {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 50px;
     text-align: center;
 }
-
-.title-detalleg {
-    font-family: Rubik wet paint, cursive;
-    font-size: 50px;
-}
-
 .title p {
     font-size: 17px;
     text-align: center;
 }
-
 .item {
     display: flex;
     flex-wrap: wrap;
@@ -104,50 +98,12 @@ nav ul li a {
     width: 374px;
     height: 58px;
 }
-
 .item a {
     font-size: 17px;
 }
-
 .item img {
     width: 40px;
     height: auto;
-}
-
-footer img {
-    width: 200px;
-
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: grey;
-    font-size: 10;
-    margin-top: 3%;
-}
-
-footer a {
-    text-align: end;
-}
-
-.title-genre {
-    font-family: Rubik Wet Paint, cursive;
-    font-size: 250%;
-}
-
-.title-song {
-    font-family: Rubik Wet Paint, cursive;
-    font-size: 250%;
-}
-
-.title-playlist {
-    font-family: Rubik Wet Paint, cursive;
-    font-size: 250%;
 }
 
 .titlehtml {
@@ -155,67 +111,28 @@ footer a {
     font-size: 300%;
 }
 
-.favtrack {
-    display: flex;
-    border: 1px solid #ddd;
-    width: 25;
-    height: 100px;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.playlisthtml {
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-    align-self: center;
+.title-song {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
 }
-
-.titleplaylist {
-    font-size: 100px;
-    font-family: Bebas Neue, cursive;
-    width: 390px;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-left: 1%;
-}
-
-.sub-title {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
-}
-
-.infosong a {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
-}
-
-.infoartist a {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
-}
-
-.infoalbum a {
-    font-family: Bebas neue, cursive;
-    font-size: 200%;
-}
-
-.songs img {
-    justify-content: flex-start;
-}
-
 .songdata {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: stretch;
 }
-
 .infosong {
     margin-left: 10px;
     padding-left: 10px;
 }
-
+.infosong a {
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+.songs img {
+    justify-content: flex-start;
+}
 .favorites {
     display: flex;
     flex-wrap: wrap;
@@ -231,13 +148,11 @@ footer a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
-
 .fa-heart-circle-plus::before {
     content: "";
     align-items: center;
     size: 200%;
 }
-
 .player {
     display: flex;
     flex-wrap: wrap;
@@ -251,10 +166,7 @@ footer a {
     height: 100px;
     justify-content: space-evenly;
     margin-left: 35%;
-
-
 }
-
 .verfavorites {
     display: flex;
     flex-wrap: wrap;
@@ -272,64 +184,37 @@ footer a {
     border-radius: 360px;
 }
 
+
 .title-album {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
-
-.title-artist {
-    font-family: Rubik Wet Paint, cursive;
-    font-size: 250%;
-}
-
 .albumdata img {
     width: 330px;
     height: 440px;
-
 }
-
 .albumdata {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: stretch;
 }
-
-.artistdata {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: stretch;
+.infoalbum a {
+    font-family: Bebas neue, cursive;
+    font-size: 200%;
 }
-
-.artistdata img {
-    width: 380px;
-    height: 440px;
-    margin-top: 3%;
-}
-
 .infoalbum {
     margin-left: 10px;
     padding-left: 10px;
 }
-
-.infoartist {
-    margin-left: 10px;
-    padding-left: 10px;
-
+.sub-title {
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
 }
-
 .songsbad img {
     width: 390px;
     margin-top: 3%;
 }
-
-.songstrack a {
-    font-family: Bebas Neue, cursive;
-    font-size: 200%;
-}
-
-
 .cancion {
     display: flex;
     flex-wrap: wrap;
@@ -344,32 +229,95 @@ footer a {
     margin-top: 1%;
 }
 
-.canciontrack {
-    font-size: 170%;
+
+.title-artist {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
+.artistdata {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.artistdata img {
+    width: 380px;
+    height: 440px;
+    margin-top: 3%;
+}
+.infoartist {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.infoartist a {
     font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+.songstrack a {
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+.songstrack p{
+    font-family: Bebas Neue,cursive;
+    font-size: 200%;
 }
 
 .spotifytoptracks {
     margin-top: 3%;
 }
 
+
+.titleplaylist {
+    font-size: 100px;
+    font-family: Bebas Neue, cursive;
+    width: 390px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+}
+.title-playlist {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
+.playlisthtml {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    align-self: center;
+}
+.favtrack {
+    display: flex;
+    border: 1px solid #ddd;
+    width: 25;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.title-genre {
+    font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
 .genreshtml {
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
     align-self: center;
 }
-
+.genreshtml img {
+    width: 380px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
 .favgenre a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
-
 .favgenre p {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
-
 .favgenre {
     display: flex;
     border: 1px solid #ddd;
@@ -379,12 +327,11 @@ footer a {
     justify-content: space-around;
 }
 
-.genreshtml img {
-    width: 380px;
-    margin-top: 2%;
-    margin-bottom: 3%;
-}
 
+.title-detallegre {
+    font-family: Rubik wet paint, cursive;
+    font-size: 50px;
+}
 .regguetonartists-name {
     display: flex;
     flex-wrap: wrap;
@@ -398,24 +345,22 @@ footer a {
     height: 58px;
     margin-top: 10px;
 }
-
 .regguetonartists img {
     width: 45px;
     height: auto;
     align-items: center
 }
-
 .regguetonartists-name a {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     align-items: center;
 }
-
 .regguetonartists-name p {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     align-items: center
 }
+
 
 .busquedafoto img {
     width: 40%;
@@ -424,36 +369,29 @@ footer a {
     margin-bottom: 3%;
     margin-left: 25%;
 }
-
-.infobadbunny a {
+.busquedahtml a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 200%;
     align-items: center;
     color: white;
     margin-top: 10%;
     margin-bottom: 10%;
-
 }
-
-.infobadbunny ul {
+.busquedahtml ul {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     justify-content: space-between;
 }
-
-
-.infobadbunny {
+.busquedahtml {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
-.exitosbadbunny ul {
+.busquedahtml1 ul {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     justify-content: space-between;
 }
-
-.exitosbadbunny h2 {
+.busquedahtml1 h2 {
     font-family: Bebas Neue, cursive;
 }
