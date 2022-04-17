@@ -395,3 +395,14 @@ footer a {
 .busquedahtml1 h2 {
     font-family: Bebas Neue, cursive;
 }
+
+
+
+@media(max-width: 320px){
+.menu {
+
+}
+.logoheader{
+
+}
+}
