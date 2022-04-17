@@ -2,9 +2,11 @@ body {
     background-color: black;
     color: azure;
 }
+
 a {
     color: azure;
 }
+
 .logoheader {
     display: flex;
     flex-wrap: wrap;
@@ -12,21 +14,31 @@ a {
     justify-content: center;
     height: 100vh
 }
+
 .logoheader img {
     width: 700px;
 }
+
+::placeholder {
+    color: white;
+}
+
 .buscar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: end;
+    background-color: purple;
 }
+
 .menu ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    list-style: none;
 }
+
 .menu nav li {
     padding: 15px;
     width: 100px;
@@ -34,20 +46,19 @@ a {
     display: flex;
     justify-content: center;
 }
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
+
+
 nav ul li a {
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
 }
+
 footer img {
     width: 200px;
 }
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -59,9 +70,6 @@ footer {
     font-size: 10;
     margin-top: 3%;
 }
-footer a {
-    text-align: end;
-}
 
 
 .indexhtml {
@@ -70,22 +78,27 @@ footer a {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .title {
     width: 30%;
 }
+
 .title img {
     width: 100%;
     height: 660px;
 }
+
 .title h2 {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: 50px;
     text-align: center;
 }
+
 .title p {
     font-size: 17px;
     text-align: center;
 }
+
 .item {
     display: flex;
     flex-wrap: wrap;
@@ -98,9 +111,11 @@ footer a {
     width: 374px;
     height: 58px;
 }
+
 .item a {
     font-size: 17px;
 }
+
 .item img {
     width: 40px;
     height: auto;
@@ -116,23 +131,28 @@ footer a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+
 .songdata {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: stretch;
 }
+
 .infosong {
     margin-left: 10px;
     padding-left: 10px;
 }
+
 .infosong a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .songs img {
     justify-content: flex-start;
 }
+
 .favorites {
     display: flex;
     flex-wrap: wrap;
@@ -148,11 +168,13 @@ footer a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .fa-heart-circle-plus::before {
     content: "";
     align-items: center;
     size: 200%;
 }
+
 .player {
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +189,7 @@ footer a {
     justify-content: space-evenly;
     margin-left: 35%;
 }
+
 .verfavorites {
     display: flex;
     flex-wrap: wrap;
@@ -189,32 +212,39 @@ footer a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+
 .albumdata img {
     width: 330px;
     height: 440px;
 }
+
 .albumdata {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: stretch;
 }
+
 .infoalbum a {
     font-family: Bebas neue, cursive;
     font-size: 200%;
 }
+
 .infoalbum {
     margin-left: 10px;
     padding-left: 10px;
 }
+
 .sub-title {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .songsbad img {
     width: 390px;
     margin-top: 3%;
 }
+
 .cancion {
     display: flex;
     flex-wrap: wrap;
@@ -234,31 +264,37 @@ footer a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+
 .artistdata {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: stretch;
 }
+
 .artistdata img {
     width: 380px;
     height: 440px;
     margin-top: 3%;
 }
+
 .infoartist {
     margin-left: 10px;
     padding-left: 10px;
 }
+
 .infoartist a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .songstrack a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
-.songstrack p{
-    font-family: Bebas Neue,cursive;
+
+.songstrack p {
+    font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
 
@@ -275,16 +311,19 @@ footer a {
     margin-bottom: 3%;
     margin-left: 1%;
 }
+
 .title-playlist {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+
 .playlisthtml {
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
     align-self: center;
 }
+
 .favtrack {
     display: flex;
     border: 1px solid #ddd;
@@ -299,25 +338,30 @@ footer a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
+
 .genreshtml {
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
     align-self: center;
 }
+
 .genreshtml img {
     width: 380px;
     margin-top: 2%;
     margin-bottom: 3%;
 }
+
 .favgenre a {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .favgenre p {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .favgenre {
     display: flex;
     border: 1px solid #ddd;
@@ -332,6 +376,7 @@ footer a {
     font-family: Rubik wet paint, cursive;
     font-size: 50px;
 }
+
 .regguetonartists-name {
     display: flex;
     flex-wrap: wrap;
@@ -345,16 +390,19 @@ footer a {
     height: 58px;
     margin-top: 10px;
 }
+
 .regguetonartists img {
     width: 45px;
     height: auto;
     align-items: center
 }
+
 .regguetonartists-name a {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     align-items: center;
 }
+
 .regguetonartists-name p {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
@@ -364,11 +412,11 @@ footer a {
 
 .busquedafoto img {
     width: 40%;
-    height: 60%;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 25%;
 }
+
 .busquedahtml a {
     font-family: Rubik Wet Paint, cursive;
     font-size: 200%;
@@ -377,32 +425,102 @@ footer a {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
 .busquedahtml ul {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     justify-content: space-between;
 }
+
 .busquedahtml {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .busquedahtml1 ul {
     font-family: Bebas Neue, cursive;
     font-size: 150%;
     justify-content: space-between;
 }
+
 .busquedahtml1 h2 {
     font-family: Bebas Neue, cursive;
 }
 
 
+@media(max-width:460px) {
+    .indexhtml {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-@media(max-width: 320px){
-.menu {
+    .title {
+        width: 95%;
+    }
 
-}
-.logoheader{
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: grey;
+        font-size: 10;
+        margin-top: 3%;
+    }
 
-}
+    .buscar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: end;
+        background-color: purple;
+
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .menu nav li {
+        padding: 15px;
+        width: 100px;
+        background-color: purple;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+    }
+
+    .busquedafoto img {
+        width: 70%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0%;
+    }
+
+    .busquedafoto {
+        text-align: center;
+    }
+
+
+
+
+
+
+
 }
