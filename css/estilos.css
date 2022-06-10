@@ -74,8 +74,6 @@ footer {
     font-family: 'Nunito', sans-serif;
     color:grey;
     font-size: 10px;
-    
-
 }
 
 
@@ -219,7 +217,10 @@ footer {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
 }
-
+/* .columnoso{
+    display: flex;
+    flex-direction: column;
+} */
 .albumdata img {
     width: 330px;
     height: 440px;
