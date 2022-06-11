@@ -52,9 +52,9 @@ fetch(url)
         let section = document.querySelector(".artist")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].title}-</p>`,
-            article += `<p>${info[i].name}</p>`
-            article += `<img src=${info[i].picture_medium}></article>`
+            article += `<article class="item"><p>${info[i].name}</p>`,
+            article += `<img src=${info[i].picture_medium}>`,
+            article += `<a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
 
         }
         console.log(article);
