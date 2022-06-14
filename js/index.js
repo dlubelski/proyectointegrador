@@ -12,9 +12,9 @@ fetch(url)
         for (let i = 0; i < 5; i++) {
             article += `<article class="item">
             <img src=${info[i].artist.picture_medium}>   
-            <p>${info[i].title}-</p>
+            <p>${info[i].title}</p>
             <p>${info[i].artist.name}</p>
-            <a href="songs.html?id=${info[i].id}">ir a detalle </a></article>`
+            <a href="songs.html?id=${info[i].id}">♬ </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -35,9 +35,9 @@ fetch(url)
         for (let i = 0; i < 5; i++) {
             article += `<article class="item">
              <img src=${info[i].artist.picture_medium}>
-             <p>${info[i].title}-</p>
+             <p>${info[i].title}</p>
                 <p>${info[i].artist.name}</p>
-                <a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
+                <a href="albums.html?id=${info[i].id}">♬ </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -59,7 +59,7 @@ fetch(url)
         for (let i = 0; i < 5; i++) {
             article += `<img src=${info[i].picture_medium}>
               <article class="item"><p>${info[i].name}</p>
-             <a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
+             <a href="artists.html?id=${info[i].id}">♬</a></article>`
 
         }
         console.log(article);
