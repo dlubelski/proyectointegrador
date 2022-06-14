@@ -3,7 +3,7 @@ let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en
 let idAlbums = qsToObject.get('id'); //obtengo el id del album
 
 
-let urlAlbums = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${idAlbums}`;
+let urlAlbums = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${idAlbums}?`;
 
 fetch(urlAlbums)
     .then(function (response) {
@@ -11,11 +11,11 @@ fetch(urlAlbums)
     })
     .then(function (data) {
         console.log(data);
-        let name = document.querySelector('.albumshtml');
-        let picture = document.querySelector('img');
+        let name = document.querySelector('.title-album');
+        let cover = document.querySelector('.img');
 
-        name.innerText = data.name;
-        picture.src = data.picture;
+        name.innerText = data.title;
+        cover.src = data.cover;
 
     })
     .catch(function (error) {

@@ -10,10 +10,10 @@ fetch(url)
         let section = document.querySelector(".song")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].title}-</p>`,
-                article += `<p>${info[i].artist.name}</p>`
-            article += `<img src=${info[i].artist.picture_medium}></article>`
-            article += `<a href="songs.html?id=${info[i].id}">ir a detalle </a></article>`
+            article += `<article class="item"><p>${info[i].title}-</p>
+                <p>${info[i].artist.name}</p>
+            <img src=${info[i].artist.picture_medium}>
+            <a href="songs.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -32,10 +32,10 @@ fetch(url)
         let section = document.querySelector(".album")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].title}-</p>`,
-                article += `<p>${info[i].artist.name}</p>`
-            article += `<img src=${info[i].artist.picture_medium}></article>`
-            article += `<a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
+            article += `<article class="item"><p>${info[i].title}-</p>
+                <p>${info[i].artist.name}</p>
+             <img src=${info[i].artist.picture_medium}>
+                    <a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
         section.innerHTML += article

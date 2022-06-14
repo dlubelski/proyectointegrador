@@ -58,6 +58,13 @@ nav ul li a {
     font-size: 30px;
 }
 
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: blue;
+}
+
 footer img {
     width: 200px;
 }
