@@ -1,6 +1,6 @@
 let queryString = location.search; //obtengo la qs
 let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en la qs
-let idArtists = qsToObject.get('id'); //obtengo el id del artista
+let idArtists = qsToObject.get('id'); //obtengo el id de la cancion
 
 
 let urlArtists = `https://api.allorigins.win/raw?url=https://api.deezer.com/artist/${idArtists}`;

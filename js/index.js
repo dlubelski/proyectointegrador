@@ -13,6 +13,7 @@ fetch(url)
             article += `<article class="item"><p>${info[i].title}-</p>`,
                 article += `<p>${info[i].artist.name}</p>`
             article += `<img src=${info[i].artist.picture_medium}></article>`
+            article += `<a href="songs.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -34,6 +35,7 @@ fetch(url)
             article += `<article class="item"><p>${info[i].title}-</p>`,
                 article += `<p>${info[i].artist.name}</p>`
             article += `<img src=${info[i].artist.picture_medium}></article>`
+            article += `<a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -53,8 +55,8 @@ fetch(url)
         let article = "";
         for (let i = 0; i < 5; i++) {
             article += `<article class="item"><p>${info[i].name}</p>`,
-            article += `<img src=${info[i].picture_medium}>`,
-            article += `<a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
+                article += `<img src=${info[i].picture_medium}>`,
+                article += `<a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
 
         }
         console.log(article);
