@@ -58,12 +58,14 @@ nav ul li a {
     font-size: 30px;
 }
 
-.artists {
+.title {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: blue;
+    
 }
+
+
 
 footer img {
     width: 200px;
@@ -90,8 +92,9 @@ footer {
 .indexhtml {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title {
@@ -99,7 +102,7 @@ footer {
 }
 
 .title img {
-    width: 100%;
+    width: 374px;
     height: 660px;
 }
 
@@ -120,11 +123,8 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid #ddd;
-    padding: 0 10px;
     font-family: 'Bebas Neue', cursive;
-    width: 374px;
-    height: 58px;
+    
 }
 
 .item a {

@@ -10,9 +10,10 @@ fetch(url)
         let section = document.querySelector(".song")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].title}-</p>
-                <p>${info[i].artist.name}</p>
-            <img src=${info[i].artist.picture_medium}>
+            article += `<article class="item">
+            <img src=${info[i].artist.picture_medium}>   
+            <p>${info[i].title}-</p>
+            <p>${info[i].artist.name}</p>
             <a href="songs.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
@@ -32,10 +33,11 @@ fetch(url)
         let section = document.querySelector(".album")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].title}-</p>
-                <p>${info[i].artist.name}</p>
+            article += `<article class="item">
              <img src=${info[i].artist.picture_medium}>
-                    <a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
+             <p>${info[i].title}-</p>
+                <p>${info[i].artist.name}</p>
+                <a href="albums.html?id=${info[i].id}">ir a detalle </a></article>`
         }
         console.log(article);
         section.innerHTML += article
@@ -44,7 +46,8 @@ fetch(url)
         console.log(error);
     })
 
-fetch(url)
+
+    fetch(url)
     .then(function (response) {
         return response.json();
     })
@@ -54,9 +57,9 @@ fetch(url)
         let section = document.querySelector(".artist")
         let article = "";
         for (let i = 0; i < 5; i++) {
-            article += `<article class="item"><p>${info[i].name}</p>`,
-                article += `<img src=${info[i].picture_medium}>`,
-                article += `<a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
+            article += `<img src=${info[i].picture_medium}>
+              <article class="item"><p>${info[i].name}</p>
+             <a href="artists.html?id=${info[i].id}">ir a detalle </a></article>`
 
         }
         console.log(article);

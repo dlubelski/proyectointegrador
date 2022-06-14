@@ -21,3 +21,5 @@ fetch(urlArtists)
     .catch(function (error) {
         console.log(error)
     })
+
+    
