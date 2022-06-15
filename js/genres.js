@@ -1,24 +1,17 @@
-let queryString = location.search; //obtengo la qs
-let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en la qs
-let idGenres = qsToObject.get('idGenres'); //obtengo el id del album
-
-let urlGenres=
-
-fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/genres/${idGenres}")
+fetch ("https://api.allorigins.win/raw?url=https://api.deezer.com/genre")
     .then(function(response){
         return response.json()
     })
     .then(function(data){
         console.log(data);
-        let info = data.genres.data;
-        let section = document.querySelector("genreshtml"); 
+        let info = data.data;
+        let section = document.querySelector(".genreshtml"); 
         let article = "";
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 28; i++) {
             article += `<article class="favgenre">
-             <img src=${info[i].artist.picture_xl}>
-             <p>${info[i].title}</p>
-                <p>${info[i].artist.name}</p>
-                <a href="genres.html?id=${info[i].id}">♬ </a></article>`
+             <img src="${info[i].picture_xl}">
+             <p>${info[i].name}</p>
+             <a href="detallegre.html?id=${info[i].id}">♬ </a></article>`
         }
         console.log(article);
         section.innerHTML += article

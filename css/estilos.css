@@ -128,7 +128,7 @@ footer {
 .item {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     align-self: center;
@@ -149,6 +149,7 @@ footer {
 }
 .item p {
  margin: 5px;
+ font-size: 25px;
 }
 
 .content img p{
@@ -252,16 +253,21 @@ footer {
 }
 
 
-.title-album {
+.albumshtml h1 {
     font-family: Rubik Wet Paint, cursive;
+    font-size: 250%;
+}
+.albumshtml h2 {
+    font-family: Bebas Neue, cursive;
     font-size: 250%;
 }
 /* .columnoso{
     display: flex;
     flex-direction: column;
-} */
-.albumdata img {
-    width: 330px;
+} 
+
+./* albumdata img {
+    width: 500px;
     height: 440px;
 }
 
@@ -280,6 +286,23 @@ footer {
 .infoalbum {
     margin-left: 10px;
     padding-left: 10px;
+} */
+
+.albumshtml {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.infoalbum{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.infoalbum img {
+width: 500px;
 }
 
 .sub-title {
@@ -386,16 +409,18 @@ footer {
 }
 
 .genreshtml {
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .genreshtml img {
-    width: 380px;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    margin-top: 20px;
 }
 
 .favgenre a {
@@ -410,11 +435,13 @@ footer {
 
 .favgenre {
     display: flex;
-    border: 1px solid #ddd;
-    width: 25;
-    height: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-around;
+    align-self: flex-start;
+    font-family: 'Bebas Neue', cursive;
+    width: 400px;
 }
 
 

@@ -11,8 +11,12 @@ fetch(urlAlbums)
     })
     .then(function (data) {
         console.log(data);
-        let name = document.querySelector('.title-album');
         let cover = document.querySelector('.img');
+        let name = document.querySelector('.title-album');
+        let artist = document.querySelector('.title-album')
+        let genre = document.querySelector('.title-album')
+        let release_date = document.querySelector('.title-album')
+        
 
         name.innerText = data.title;
         cover.src = data.cover;
