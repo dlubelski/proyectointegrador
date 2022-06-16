@@ -256,6 +256,7 @@ footer {
 .albumshtml h1 {
     font-family: Rubik Wet Paint, cursive;
     font-size: 250%;
+    color: azure;
 }
 .albumshtml h2 {
     font-family: Bebas Neue, cursive;
@@ -306,6 +307,10 @@ width: 500px;
 }
 
 .sub-title {
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+.sub-title1 {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }

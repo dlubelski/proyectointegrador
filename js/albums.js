@@ -5,6 +5,7 @@ let idAlbums = qsToObject.get('id'); //obtengo el id del album
 
 let urlAlbums = `https://api.allorigins.win/raw?url=https://api.deezer.com/album/${idAlbums}?`;
 
+
 fetch(urlAlbums)
     .then(function (response) {
         return response.json()
@@ -12,14 +13,19 @@ fetch(urlAlbums)
     .then(function (data) {
         console.log(data);
         let cover = document.querySelector('.img');
-        let name = document.querySelector('.title-album');
-        let artist = document.querySelector('.title-album');
-        let genre = document.querySelector('.title-album');
-        let release_date = document.querySelector('.title-album');
-        
-
-        name.innerText = data.title;
+        let title = document.querySelector('.titlehtml');
+        let name = document.querySelector('.nombreArtist');
+        let genres = document.querySelector('.sub-title');
+        let release_date = document.querySelector('.sub-title1');
+    
+        console.log(title);
         cover.src = data.cover;
+        title.innerText = data.title;
+        name.innerText = data.name;
+        genres.innerText = data.genres;
+        release_date.innerText = data.release_date;
+
+
     })
     .catch(function (error) {
         console.log(error)
