@@ -262,6 +262,11 @@ footer {
     font-family: Bebas Neue, cursive;
     font-size: 250%;
 }
+.albumshtml h3 {
+    font-family: Bebas Neue, cursive;
+    font-size: 250%;
+}
+
 /* .columnoso{
     display: flex;
     flex-direction: column;
