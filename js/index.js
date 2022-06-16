@@ -60,7 +60,7 @@ fetch(url)
             article += ` <article class="item"> 
             <img src=${info[i].picture_medium}>
              <p>${info[i].name}</p>
-             <a href="artists.html"?id=${info[i].id}">♬</a></article>`
+             <a href="artists.html?id=${info[i].id}">♬ </a></article>`
 
         }
         console.log(article);

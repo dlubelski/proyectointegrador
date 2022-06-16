@@ -11,12 +11,12 @@ fetch(urlArtists)
     })
     .then(function (data) {
         console.log(data);
-         let name = document.querySelector('.artistshtml');
-         let picture = document.querySelector('img');
-
+         let name = document.querySelector('.title-artist');
+         let picture = document.querySelector('.foto');
+         let artista = document.querySelector('.artista');
          name.innerText = data.name;
          picture.src = data.picture;
-
+       
     })
     .catch(function (error) {
         console.log(error)
