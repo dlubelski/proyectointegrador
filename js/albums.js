@@ -17,14 +17,14 @@ fetch(urlAlbums)
         let nombre = document.querySelector('.nombreArtist');
         let genres = document.querySelector('.sub-title');
         let release_date = document.querySelector('.sub-title1');
-    
+
         console.log(title);
         cover.src = data.cover_medium;
         title.innerText = data.title;
         nombre.innerText = data.artist.name;
         genres.innerText = data.genres.data[0].name;
         release_date.innerText = data.release_date;
-    
+
 
     })
     .catch(function (error) {
