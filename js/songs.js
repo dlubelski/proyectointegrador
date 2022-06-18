@@ -3,7 +3,7 @@ let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en
 let idSongs = qsToObject.get('id'); //obtengo el id del artista
 
 
-let urlSongs = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/${idSongs}`;
+let urlSongs = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${idSongs}`;
 console.log(urlSongs);
 fetch(urlSongs)
     .then(function (response) {
@@ -19,7 +19,7 @@ fetch(urlSongs)
          name.innerText = data.title;
          picture.src = data.album.cover;
          artista.innerText=data.artist.name;
-         disco.innerText= data.album.title
+         disco.innerText= data.album.title;
          document.querySelector('.player').innerHTML=`<iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/${idSongs}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`
          document.querySelector('.button').innerHTML= `<button type="submit">Agregar a mi playlist</button>`
          document.querySelector('.link').innerHTML=`<a href="./playlist.html">playlist</a>`
