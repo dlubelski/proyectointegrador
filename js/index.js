@@ -1,4 +1,4 @@
-let url = "https://api.allorigins.win/raw?url=https://api.deezer.com/chart"
+let url = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart"
 
 fetch(url)
     .then(function (response) {

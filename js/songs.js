@@ -3,7 +3,7 @@ let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en
 let idSongs = qsToObject.get('id'); //obtengo el id del artista
 
 
-let urlSongs = `https://api.allorigins.win/raw?url=https://api.deezer.com/track/${idSongs}`;
+let urlSongs = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${idSongs}`;
 console.log(urlSongs);
 fetch(urlSongs)
     .then(function (response) {
