@@ -224,7 +224,7 @@ footer {
     size: 200%;
 }
 
-.player {
+/* .player {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -237,7 +237,7 @@ footer {
     height: 100px;
     justify-content: space-evenly;
     margin-left: 35%;
-}
+} */
 
 .verfavorites {
     display: flex;
@@ -334,18 +334,51 @@ footer {
     margin-top: 3%;
 }
 
-.cancion {
+.songshtml h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid #ddd;
     padding: 0 10px;
     font-family: 'Bebas Neue', cursive;
     width: 374px;
-    height: 58px;
-    margin-top: 1%;
+    height: 30px;
+    
+}
+.play {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: center;
+ width: 500px;
+ height: 500px;
+ margin: 40px;
+ margin-left: 400px;
+}
+
+.songshtml a {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    width: 204px;
+    height: 40px;
+    
+}
+.agregar {
+    display: flex;
+    border: 1px solid #ddd;
+    height: 100px;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 500px;
+    height: 40px;
+    color: black;
 }
 
 

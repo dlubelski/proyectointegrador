@@ -11,7 +11,6 @@ fetch(urlSongs)
     })
     .then(function (data) {
         console.log(data);
-         let name = document.querySelector('.title-artist');
          let picture = document.querySelector('.foto');
          let artista = document.querySelector('.cancion')
          let disco = document.querySelector('.cancion2')

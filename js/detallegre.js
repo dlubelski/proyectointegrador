@@ -1,7 +1,7 @@
 let queryString = location.search; //obtengo la qs
 let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en la qs
 let idUrl = qsToObject.get('id'); //obtengo el id del detalle del genero
-let urlDetallegre = "https://api.allorigins.win/raw?url=https://api.deezer.com/genre/" + idUrl
+let urlDetallegre = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/" + idUrl
 
 fetch(urlDetallegre)
     .then(function (response) {
