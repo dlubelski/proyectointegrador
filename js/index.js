@@ -47,7 +47,7 @@ fetch(url)
     })
 
 
-    fetch(url)
+fetch(url)
     .then(function (response) {
         return response.json();
     })

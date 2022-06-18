@@ -1,11 +1,11 @@
-fetch ("https://api.allorigins.win/raw?url=https://api.deezer.com/genre")
-    .then(function(response){
+fetch("https://api.allorigins.win/raw?url=https://api.deezer.com/genre")
+    .then(function (response) {
         return response.json()
     })
-    .then(function(data){
+    .then(function (data) {
         console.log(data);
         let info = data.data;
-        let section = document.querySelector(".genreshtml"); 
+        let section = document.querySelector(".genreshtml");
         let article = "";
         for (let i = 0; i < 28; i++) {
             article += `<article class="favgenre">
@@ -17,6 +17,6 @@ fetch ("https://api.allorigins.win/raw?url=https://api.deezer.com/genre")
         section.innerHTML += article
 
     })
-    .catch(function(error){
+    .catch(function (error) {
         console.log(error);
     })

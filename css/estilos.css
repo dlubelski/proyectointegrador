@@ -2,8 +2,9 @@ body {
     background-color: black;
     color: azure;
 }
-button{
-    color:purple;
+
+button {
+    color: purple;
 }
 
 a {
@@ -62,7 +63,7 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+
 }
 
 
@@ -82,9 +83,10 @@ footer {
     font-size: 10;
     margin-top: 3%;
 }
-.minuscula{
+
+.minuscula {
     font-family: 'Nunito', sans-serif;
-    color:grey;
+    color: grey;
     font-size: 10px;
 }
 
@@ -121,7 +123,7 @@ footer {
 
 .title p {
     font-size: 17px;
-    justify-content: center;    
+    justify-content: center;
     align-self: center;
 }
 
@@ -134,8 +136,8 @@ footer {
     align-self: center;
     font-family: 'Bebas Neue', cursive;
     width: 550px;
-   
-    
+
+
 }
 
 .item a {
@@ -147,19 +149,21 @@ footer {
     height: auto;
     margin: 10px;
 }
+
 .item p {
- margin: 5px;
- font-size: 25px;
+    margin: 5px;
+    font-size: 25px;
 }
 
-.content img p{
+.content img p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.content img{
+
+.content img {
     width: 150px;
     height: auto;
 
@@ -258,10 +262,12 @@ footer {
     font-size: 250%;
     color: azure;
 }
+
 .albumshtml h2 {
     font-family: Bebas Neue, cursive;
     font-size: 250%;
 }
+
 .albumshtml h3 {
     font-family: Bebas Neue, cursive;
     font-size: 250%;
@@ -301,20 +307,23 @@ footer {
     justify-content: flex-start;
 
 }
-.infoalbum{
+
+.infoalbum {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
 }
+
 .infoalbum img {
-width: 500px;
+    width: 500px;
 }
 
 .sub-title {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
+
 .sub-title1 {
     font-family: Bebas Neue, cursive;
     font-size: 200%;
