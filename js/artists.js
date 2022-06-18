@@ -3,7 +3,7 @@ let qsToObject = new URLSearchParams(queryString); //Un objeto literal basado en
 let idArtists = qsToObject.get('id'); //obtengo el id del artista
 
 
-let urlArtists = `https://api.allorigins.win/raw?url=https://developers.deezer.com/api/artist${idArtists}`;
+let urlArtists = `https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/${idArtists}`;
 
 fetch(urlArtists)
     .then(function (response) {
@@ -12,11 +12,7 @@ fetch(urlArtists)
     .then(function (data) {
         console.log(data);
 <<<<<<< HEAD
-         let name = document.querySelector('.title-artist');
-         let picture = document.querySelector('.foto');
-         let artista = document.querySelector('.artista');
-         name.innerText = data.name;
-         picture.src = data.picture;
+
        
 =======
         let name = document.querySelector('.artisthtml');
