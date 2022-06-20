@@ -21,7 +21,7 @@ fetch(urlSongs)
          artista.innerText=data.artist.name;
          disco.innerText= data.album.title;
          document.querySelector('.player').innerHTML=`<iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/${idSongs}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`
-         document.querySelector('.play').innerHTML= `<button type="submit">Agregar a mi playlist</button>`
+         document.querySelector('button').innerHTML= `<button type="submit">Agregar a mi playlist</button>`
          document.querySelector('.link').innerHTML=`<a href="./playlist.html">playlist</a>`
     
          
@@ -49,7 +49,7 @@ fetch(urlSongs)
  
              if(favoritos.includes(idSongs)){
                  //Sacar el id del array
-                 let gifASacar = favoritos.indexOf(idSong)
+                 let gifASacar = favoritos.indexOf(idSongs)
                  favoritos.splice(gifASacar, 1);
                  link.innerText="Agregar a favoritos"
  
