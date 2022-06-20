@@ -270,8 +270,9 @@ footer {
 
 .albumshtml h3 {
     font-family: Bebas Neue, cursive;
-    font-size: 250%;
+    font-size: 170%;
 }
+
 
 /* .columnoso{
     display: flex;
@@ -283,12 +284,7 @@ footer {
     height: 440px;
 }
 
-.albumdata {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: stretch;
-}
+
 
 .infoalbum a {
     font-family: Bebas neue, cursive;
@@ -308,16 +304,26 @@ footer {
 
 }
 
-.infoalbum {
+.albumdata{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.infoalbum img {
-    width: 500px;
+.albumdata img{
+    width: 400px;
+    height: 500px;
 }
+.infoalbum {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  margin-left: 10px;
+    border: 5%;
+}
+
+
 
 .sub-title {
     font-family: Bebas Neue, cursive;
@@ -400,12 +406,11 @@ footer {
     margin-top: 3%;
 }
 
-.infoartist {
+.artistdata {
     margin-left: 10px;
-    padding-left: 10px;
+    padding-left: 10px; 
 }
-
-.infoartist a {
+.artistdata ol{
     font-family: Bebas Neue, cursive;
     font-size: 200%;
 }
