@@ -445,10 +445,15 @@ footer {
 }
 
 .playlisthtml {
-    margin-left: 10%;
-    margin-right: 10%;
-    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+.name {    
+    font-family: Bebas Neue, cursive;
+    font-size: 200%;
+}
+
 
 .favtrack {
     display: flex;
