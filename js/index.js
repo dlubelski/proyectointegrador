@@ -1,12 +1,12 @@
-let url = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart"
+let url = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart" /* let crea */
 
-fetch(url)
-    .then(function (response) {
-        return response.json();
+fetch(url)  /* permite recursos de forma asincronica que evalua una promesa(info que va a llegar) */
+    .then(function (response) { /* metodo */
+        return response.json();   /* json:intercambio de datos --> obj literales */
     })
-    .then(function (data) {
-        console.log(data);
-        let info = data.tracks.data;
+    .then(function (data) { 
+        console.log(data); /* muestra datos */
+        let info = data.tracks.data; 
         let section = document.querySelector(".song")
         let article = "";
         for (let i = 0; i < 5; i++) {
