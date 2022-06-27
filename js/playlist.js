@@ -20,7 +20,7 @@ for(let i=0; i<recuperoStorageToArray.length; i++){
             contenidoSection += `<article>
                                     <p class="name">Nombre: ${data.title}</p>
                                     <img src="${data.artist.picture}" alt="foto">
-                                     
+                                    <a href"./songs.html"?id= 
                             </article>`
 
                             section.innerHTML = contenidoSection
